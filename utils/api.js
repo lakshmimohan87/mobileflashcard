@@ -7,7 +7,7 @@ export async function getDecks() {
           return JSON.parse(value);
         }
         else{
-            return {...decks};
+            return {};
         }
   
       } catch(e) {
